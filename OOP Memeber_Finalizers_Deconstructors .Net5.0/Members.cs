@@ -11,7 +11,7 @@ namespace OOP_Memeber_Finalizers_Deconstructors_.Net5._0
         // member - private field
         private string memberName;
         private string jobTitle;
-        private int salary = 20000;
+        private int salary;
         // member - public field
         public int age;
 
@@ -44,5 +44,16 @@ namespace OOP_Memeber_Finalizers_Deconstructors_.Net5._0
         {
             Console.WriteLine("My salary is {0}, salary");
         }
+
+        // member constructor
+        public Members()
+        {
+            age = 30;
+            memberName = "Lucy";
+            salary = 60000;
+            jobTitle = "Developer";
+            Console.WriteLine("Object created");
+        }
+
     }
 }
