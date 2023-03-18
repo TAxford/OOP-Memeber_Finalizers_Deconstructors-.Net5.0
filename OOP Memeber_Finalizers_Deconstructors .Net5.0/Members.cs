@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -36,7 +37,7 @@ namespace OOP_Memeber_Finalizers_Deconstructors_.Net5._0
             }
             else
             {
-                Console.WriteLine("Hi, my name is {0}, and my job title is {1}. I'm {2} years old", memberName, jobTitle, age)";
+                Console.WriteLine("Hi, my name is {0}, and my job title is {1}. I'm {2} years old", memberName, jobTitle, age);
             }
         }
 
@@ -60,6 +61,7 @@ namespace OOP_Memeber_Finalizers_Deconstructors_.Net5._0
         {
             // cleanup statements
             Console.WriteLine("Deconstruction of Members object");
+            Debug.Write("Destruction of Members object");
         }
 
     }

@@ -8,6 +8,7 @@ namespace OOP_Memeber_Finalizers_Deconstructors_.Net5._0
         {
             Members member1 = new Members();
             member1.Introducing(true);
+            Console.ReadKey();
         }
     }
 }
