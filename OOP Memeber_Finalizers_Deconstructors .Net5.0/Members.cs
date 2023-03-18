@@ -14,5 +14,12 @@ namespace OOP_Memeber_Finalizers_Deconstructors_.Net5._0
 
         // member - public field
         public int age;
+
+        public string JobTitle { 
+            get {
+                return jobTitle;
+            } set{
+                jobTitle = value;
+            } }
     }
 }
