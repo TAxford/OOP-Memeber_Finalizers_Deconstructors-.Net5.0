@@ -6,7 +6,8 @@ namespace OOP_Memeber_Finalizers_Deconstructors_.Net5._0
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Members member1 = new Members();
+            member1.Introducing(true);
         }
     }
 }
