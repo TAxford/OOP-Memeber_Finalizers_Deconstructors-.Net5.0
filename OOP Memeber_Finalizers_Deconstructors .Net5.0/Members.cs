@@ -15,11 +15,16 @@ namespace OOP_Memeber_Finalizers_Deconstructors_.Net5._0
         // member - public field
         public int age;
 
+        // member - property - exposes jobTitle safely - properties start with a capital letter 
         public string JobTitle { 
-            get {
+            get 
+            {
                 return jobTitle;
-            } set{
+            } 
+            set
+            {
                 jobTitle = value;
-            } }
+            } 
+        }
     }
 }
