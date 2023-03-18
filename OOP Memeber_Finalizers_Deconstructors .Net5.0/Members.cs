@@ -11,5 +11,8 @@ namespace OOP_Memeber_Finalizers_Deconstructors_.Net5._0
         // member - private field
         private string memberName;
         private string jobTitle;
+
+        // member - public field
+        public int age;
     }
 }
