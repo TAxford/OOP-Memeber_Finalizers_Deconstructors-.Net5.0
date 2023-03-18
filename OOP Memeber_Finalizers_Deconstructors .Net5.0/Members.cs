@@ -55,5 +55,12 @@ namespace OOP_Memeber_Finalizers_Deconstructors_.Net5._0
             Console.WriteLine("Object created");
         }
 
+        // member - finalizer - deconstructor
+        ~Members()
+        {
+            // cleanup statements
+            Console.WriteLine("Deconstruction of Members object");
+        }
+
     }
 }
