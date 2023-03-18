@@ -8,5 +8,8 @@ namespace OOP_Memeber_Finalizers_Deconstructors_.Net5._0
 {
     internal class Members
     {
+        // member - private field
+        private string memberName;
+        private string jobTitle;
     }
 }
